@@ -34,6 +34,8 @@ You can deploy any of the available Gogs versions on [openshiftdemos/gogs](https
 oc new-app -f http://bit.ly/openshift-gogs-template --param=HOSTNAME=gogs-demo.yourdomain.com --param=GOGS_VERSION=0.11.4
 ```
 
+> **Note:** This repo was forked from [openshiftdemos/gogs](https://github.com/OpenShiftDemos/gogs-openshift-docker) and just Gogs' version was updated. You can build the docker file and smootly switch to new version if you already deployed Gogs from OpenshiftDemos.
+
 # Gogs Admin User
 After Gogs deployment, the first registered user will be admin. The default administrator can log into Admin > Users and authorize another user. A user will also be an > administrator if they register in the install page. Read more on [Gogs FAQ](https://gogs.io/docs/intro/faqs#how-can-i-become-an-administrator%3F)
 
